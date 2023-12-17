@@ -1,0 +1,30 @@
+* <17/11/2021>
+* sujet : apprentissage/génération de peintures
+* TODO: écrire dans un fichier sujet.md les détails/étapes
+  intermédiaires/resources
+
+<24/11/2021>
+* changement de sujet : raytracer
+* Language : C++ / Qt
+* TODO : se documenter sur les algos existants
+  écrire un petit rapport (1/2 pages) sur ces recherches
+
+<31/01/2022>
+* FAIT :
+- implémentation une première partie des classes vecteur et rayon
+* TODO :
+- terminer l'implémentation de base
+- réfléchir à comment tester le code sur une scène 3d:
+ + comment représenter une scène dans le code (forme, couleur, texture... des objets de la scène)
+ + chercher des formats de fichier qui permettent de représenter la scène
+- éventuellement réfléchir à comment paralléliser le programme
+
+<14/02/2022>
+* FAIT :
+  - démo avec des sphères
+TODO :
+  - traiter des surfaces arbitraires : importer des .obj
+    + soit utiliser une bibliothèque adaptée
+    + soit écrire à la main une fonction qui calcule l'intersection et la
+    normale à la surface avec le segment.
+  - paralléliser le calcul ?
